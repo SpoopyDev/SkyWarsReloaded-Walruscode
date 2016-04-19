@@ -55,17 +55,26 @@
 #  purchasePermanentKitsEnabled: true	//enables the Permanent Kit shop
 #  showKitItemsandPotionEffects: true   //when enabled, the items and potion effects are displayed in the kit info.
 #  doubleChestAlwaysOP: true		//when enabled, double chests are treated as OP chests (so you can have OP chests in the center of the map if you want)
+#gameSounds:
+#  playerJoinLobby: BLOCK_SLIME_STEP
+#  playerLeaveLobby: ENTITY_SLIME_ATTACK
+#  playerDeath: ENTITY_LIGHTNING_THUNDER
+#  playerWin: ENTITY_FIREWORK_LARGE_BLAST
+#  opChestVote: BLOCK_CHEST_OPEN
+#  timeVote: ENTITY_TNT_PRIMED
+#  weatherVote: ENTITY_PLAYER_SPLASH
+#  jumpVote: ENTITY_MAGMACUBE_JUMP
 #lobbyGuard:
 #  enabled: false	//If enabled the items below will be enforced if set to true.
 #  hungerDisabled: true  //Players will not lose hunger in lobby.
 #  damageDisabled: true  //Player will not take damage in the lobby (Void damage will still be allowed).
 #  pvpDisabled: true     //PVP will be disabled in the lobby.
-#  playerBuildDisabled: true  //Players will not be able to build or break blocks in the lobby. 
+#  playerBuildDisabled: true  //Players will not be able to build or break blocks in the lobby.
 #  playerInteractDisabled: true  //Players will not be able to interact with blocks/items/picture frames/etc in the lobby.
 #  weatherDisabled: true //When enabled the weather will always be clear in the lobby world.
-#  daylightCycleDisabled: true  //When enabled the time will always be Noon in the lobby world. 
+#  daylightCycleDisabled: true  //When enabled the time will always be Noon in the lobby world.
 #spawn:						//use setspawn command to set a spawn point where people are teleported when leaving a game. This must be set before any game can be created.
-#commandWhiteList: 			//commands placed under the whitelist can be used by players ingame. 
+#commandWhiteList: 			//commands placed under the whitelist can be used by players ingame.
 # - '/swr quit'
 # - '/swr kit'
 # - '/swr shop'
@@ -80,16 +89,16 @@
 #  password: password		//password for login to the SQL database
 #resaveDefaultMaps: false	//When set to true the plugin will reload the maps that came with the plugin.
 #bungeeMode:
-#  enabled: false			//When enabled, the plugin will work with the SkyWarsReloaded bungeeMode plugin. 
+#  enabled: false			//When enabled, the plugin will work with the SkyWarsReloaded bungeeMode plugin.
 #  bungeeServerName: test	//The bungee cord name of the SkyWars server.
-#  lobbyServer: lobby		//The name of the server (as found in bungeecord) where players will be sent when the game ends. 
+#  lobbyServer: lobby		//The name of the server (as found in bungeecord) where players will be sent when the game ends.
 gameSettings:
   signJoinMode: false
   signJoinMaterial: wool
   pressurePlateJoin: true
   allowSpectating: true
   enableLogFilter: true
-  useExternalEconomy: false  
+  useExternalEconomy: false
   disableWinBroadcast: false
   noFallDamage: true
   minPercentPlayers: 50
@@ -100,7 +109,7 @@ gameSettings:
   maxMapSize: 200
   maxNumberOfGames: -1
   maxGameLength: -1
-  playerNameScoreboard: false 
+  playerNameScoreboard: false
   lobbyScoreBoardEnabled: false
   statsCommandCooldown: 60
   clearInventoryOnJoin: false
@@ -154,7 +163,7 @@ gameItems:
   kitMenuItem: storage_minecart 1 luck:1
   kitMenuItemSlot: 0
   kitPermMenuItem: storage_minecart 1
-  kitPermMenuItemSlot: 2 
+  kitPermMenuItemSlot: 2
   specStoreItem: anvil 1 luck:1
   specStoreItemSlot: 4
   opChestMenuItem: diamond 1
@@ -177,14 +186,14 @@ gameItems:
   glassLobbyMenuSlot: 6
   glassOptionsMenuSlot: 20
 gameSounds:
-  playerJoinLobby: SLIME_WALK2
-  playerLeaveLobby: SLIME_ATTACK
-  playerDeath: AMBIENCE_THUNDER
-  playerWin: FIREWORK_LARGE_BLAST
-  opChestVote: CHEST_OPEN
-  timeVote: FUSE
-  weatherVote: SPLASH
-  jumpVote: MAGMACUBE_JUMP
+  playerJoinLobby: BLOCK_SLIME_STEP
+  playerLeaveLobby: ENTITY_SLIME_ATTACK
+  playerDeath: ENTITY_LIGHTNING_THUNDER
+  playerWin: ENTITY_FIREWORK_LARGE_BLAST
+  opChestVote: BLOCK_CHEST_OPEN
+  timeVote: ENTITY_TNT_PRIMED
+  weatherVote: ENTITY_PLAYER_SPLASH
+  jumpVote: ENTITY_MAGMACUBE_JUMP
 lobbyGuard:
   enabled: false
   hungerDisabled: true
